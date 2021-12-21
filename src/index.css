@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "/src/styles/variables.module.css";
+@import 'react-responsive-combo-box/dist/index.css';
+@import "/src/styles/root.css";

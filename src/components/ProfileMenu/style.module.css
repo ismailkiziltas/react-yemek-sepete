@@ -1,0 +1,32 @@
+@keyframes openMenu {
+    from {
+        overflow: hidden;
+        height: 0 !important;
+    }
+
+    to {
+        overflow: visible;
+        height: 200px !important;
+    }
+}
+
+@keyframes closeMenu {
+    from {
+        overflow: visible;
+        height: 200px !important;
+    }
+
+    to {
+        overflow: hidden;
+        height: 0 !important;
+    }
+}
+
+.openMenu {
+    display: block;
+}
+
+
+.closeMenu {
+    display: none;
+}
