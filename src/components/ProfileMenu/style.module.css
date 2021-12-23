@@ -30,3 +30,12 @@
 .closeMenu {
     display: none;
 }
+
+.rotateOverArrow{
+    transform: rotate(180deg);
+    transition: transform 0.5s ease;
+}
+.rotateOutArrow{
+    transform: rotate(0deg);
+    transition: transform 0.5s ease;
+}
