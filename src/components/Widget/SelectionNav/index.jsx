@@ -5,7 +5,7 @@ import { memo, useState } from "react";
 import ComboBox from 'react-responsive-combo-box';
 
 // Data
-import LocationData from '../../__mocks__/LocationData';
+import LocationData from '../../../__mocks__/LocationData';
 
 
 const SelectionNav = () => {

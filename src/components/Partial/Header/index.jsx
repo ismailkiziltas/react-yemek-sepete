@@ -5,22 +5,20 @@ import { memo } from "react";
 import Style from './style.module.css';
 
 // Components
-import Logo from '../Logo';
-import SelectionNav from "../SelectionNav";
-import Search from "../Search";
+import { Logo, SelectCity, Search } from "../../../components";
 
 const Header = () => {
     return (
         <header className={Style.headerBg}>
             <div className="container mx-auto">
-                <div className="flex items-center py-5">
-                    <div className="w-1/4">
+                <div className="flex items-center lg:py-5">
+                    <div className="lg:w-1/4">
                         <Logo />
                     </div>
-                    <div className="w-1/4">
-                        <SelectionNav/>
+                    <div className="lg:w-1/4">
+                        <SelectCity />
                     </div>
-                    <div className="w-2/4">
+                    <div className="lg:w-2/4">
                         <Search/>
                     </div>
                 </div>

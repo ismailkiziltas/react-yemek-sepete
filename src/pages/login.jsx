@@ -1,3 +1,4 @@
+import { memo } from 'react';
 
 const LoginPage = () => {
     return(
@@ -7,4 +8,4 @@ const LoginPage = () => {
     );
 }
 
-export default LoginPage;
+export default memo(LoginPage);
