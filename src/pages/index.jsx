@@ -1,10 +1,13 @@
 import { memo } from 'react';
-import { MyAddress } from "../components"
+import { MyAddress, OrderTabs } from "../components"
 
 const Home = () => {
     return (
         <>
-           <MyAddress />
+            <div className="flex">
+                <MyAddress />
+                <OrderTabs />
+            </div>
         </>
     );
 }

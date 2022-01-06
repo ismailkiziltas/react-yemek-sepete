@@ -1,7 +1,7 @@
 import { Header, Aside, Footer } from "./components";
 
 import RouteList from "./routes";
-import { Routes, Route, BrowserRouter  } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 const App = () => {
   return (
@@ -17,14 +17,13 @@ const App = () => {
             <main>
               <Routes>
                 {RouteList.map(route => (
-                  <Route key={route.id} path={route.path} element={route.component} exact={route.exact} /> 
+                  <Route key={route.id} path={route.path} element={route.component} exact={route.exact} />
                 ))}
               </Routes>
             </main>
           </div>
         </div>
       </div>
-
       <Footer />
     </BrowserRouter>
   );

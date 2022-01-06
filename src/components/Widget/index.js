@@ -5,3 +5,4 @@ export { default as MyAddress } from "./MyAddress";
 export { default as Search } from "./Search";
 export { default as SelectCity } from "./SelectionNav";
 export { default as Wallet } from "./Wallet";
+export { default as OrderTabs } from './OrderTabs';
